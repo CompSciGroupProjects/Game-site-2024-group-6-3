@@ -1,0 +1,74 @@
+body
+{
+    text-align: center;
+}
+
+#calc-outer
+{
+    padding: 20px;
+    height: 455px;
+    width: 300px;
+    border: 10px solid #486081;
+    box-sizing: border-box;
+    background-color: steelblue;
+}
+
+#rpc-box
+{
+    height: 175px;
+    width: 250px;
+    border: 10px solid #486081;
+    box-sizing: border-box;
+    background-color: steelblue;
+}
+
+#shoot-box
+{
+    height: 75px;
+    width: 250px;
+    border: 10px solid #486081;
+    box-sizing: border-box;
+    background-color: steelblue;
+}
+
+.btn
+{
+    width: 230px;
+    height: 51px;
+    background-color: steelblue;
+    text-decoration-color: white;
+    text-decoration-thickness: 15px;
+}
+
+.btn:hover
+{
+    background-color: #bae4fd;
+}
+
+.winDisplay
+{
+    height: 50px;
+    width: 250px;
+    border: 5px solid blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+.compDisplay
+{
+    height: 50px;
+    width: 250px;
+    border: 5px solid blue;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+.playerDisplay
+{
+    height: 50px;
+    width: 250px;
+    border: 5px solid blue;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
