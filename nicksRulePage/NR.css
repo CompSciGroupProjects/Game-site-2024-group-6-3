@@ -37,3 +37,43 @@ button {
 button:hover {
     background-color: #6495ED;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #89CFF0;
+    left: 0;
+
+
+}
+
+li {
+  float: left;
+    height: 100%;
+    padding: 20px 20px 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 20px;
+    text-decoration: none;
+    margin-right: 3px;
+
+}
+
+li a:hover {
+    background-color: black;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
