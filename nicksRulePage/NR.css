@@ -1,8 +1,39 @@
-
-
 body {
-background-color: #0074cc;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #3F00FF;
 }
-{
 
+.container {
+    text-align: center;
+    background-color: #89CFF0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+ol {
+    text-align: left;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #00FFFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #6495ED;
 }
