@@ -93,6 +93,8 @@ ul {
 #tictac {
     background-color: #00FFFF;
     color: white;
+    width: 80px;
+    margin: auto;
 }
 
 #button2{
@@ -104,3 +106,7 @@ ul {
     cursor: pointer;
     border-radius: 5px;
 }
+#tic{
+    margin-top: 100px;
+}
+
