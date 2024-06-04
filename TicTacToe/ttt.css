@@ -25,7 +25,7 @@
     grid-template-columns: 80px 80px 80px;
 }
 .grid-container > div {
-    background-color: antiquewhite;
+    background-color: #89CFF0;
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
@@ -39,6 +39,65 @@
     border: 4px solid black;
     font-size: 4px;
     cursor: pointer;
+}
+body{
 
+background-color: #3F00FF;
 
     }
+button:hover {
+    background-color: #6495ED;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #89CFF0;
+    left: 0;
+
+
+}
+
+li {
+    float: left;
+    height: 100%;
+    padding: 20px 20px 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 20px;
+    text-decoration: none;
+    margin-right: 3px;
+
+}
+
+li a:hover {
+    background-color: black;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#tictac {
+    background-color: #00FFFF;
+}
+
+#button2{
+    background-color: #00FFFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
