@@ -1,6 +1,7 @@
 body
 {
     text-align: center;
+    background-color: #3F00FF;
 }
 
 #calc-outer
@@ -8,9 +9,8 @@ body
     padding: 20px;
     height: 455px;
     width: 300px;
-    border: 10px solid #486081;
     box-sizing: border-box;
-    background-color: steelblue;
+    background-color: #89CFF0;
 }
 
 #rpc-box
@@ -53,6 +53,7 @@ body
     margin-top: 5px;
     margin-bottom: 5px;
     padding-top: 5px;
+    background-color: steelblue;
 }
 
 .compDisplay
@@ -62,6 +63,7 @@ body
     border: 5px solid blue;
     margin-bottom: 5px;
     padding-top: 5px;
+    background-color: steelblue;
 }
 
 .playerDisplay
@@ -71,6 +73,7 @@ body
     border: 5px solid blue;
     margin-bottom: 5px;
     padding-top: 5px;
+    background-color: steelblue;
 }
 
 ul {
