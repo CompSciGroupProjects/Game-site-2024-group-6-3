@@ -11,6 +11,17 @@
 
 </head>
 <body>
+<div>
+<ul>
+    <li><a  href="../">Home</a></li>
+    <li><a  href="../nicksRulePage">Tic Tac Toe</a></li>
+    <li><a  href="../rpcRules">Rock Paper Scissors</a></li>
+    <li><a  href="../Connect4Rules">Connect 4</a></li>
+
+
+
+</ul>
+</div>
 <div class="container-fluid">
     <div class="text-center">
 <div id="tic">
@@ -19,7 +30,7 @@
                 <option value="one">One Player</option>
                 <option value="two">Two Players</option>
             </select>
-    <div class="bg-primary "> <p>
+    <div id="tictac"> <p>
         Hit Restart to start</p>
     </div>
             <div class="grid-container justify-content-center mx-auto" id="gameBoard"></div>
@@ -27,7 +38,7 @@
             <h3 id="currentTurn"></h3>
 
     </div>
-            <button onclick="gameRestart()">Restart/Start Game</button>
+            <button id="button2" onclick="gameRestart()">Restart/Start Game</button>
 </div>
 
 </div>
