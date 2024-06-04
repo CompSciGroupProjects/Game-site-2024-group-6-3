@@ -77,9 +77,11 @@ li a {
 
 li a:hover {
     background-color: black;
+    color: white;
 }
 li a:hover:not(.active) {
     background-color: #111;
+
 }
 
 
@@ -90,6 +92,7 @@ ul {
 }
 #tictac {
     background-color: #00FFFF;
+    color: white;
 }
 
 #button2{
