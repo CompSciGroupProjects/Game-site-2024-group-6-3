@@ -1,16 +1,17 @@
 body
 {
-    text-align: center;
     background-color: #3F00FF;
 }
 
 #calc-outer
 {
+    text-align: center;
     padding: 20px;
     height: 455px;
     width: 300px;
     box-sizing: border-box;
     background-color: #89CFF0;
+    margin-top: 200px;
 }
 
 #rpc-box
